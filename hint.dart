@@ -25,7 +25,7 @@ main() {
 
 	var budi = new Name("budi");
 
-	var humanBudi = new Human("budi");
+	var humanBudi = new Human(budi);
 
 	print(humanBudi.sayName());
 }
