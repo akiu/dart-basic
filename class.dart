@@ -16,11 +16,15 @@ class Human {
 
 		return this.name;
 	}
+
+	String balikName() => this.name;
 }
 
 main() {
 
 	var budi = new Human("budi");
-	assert(budi.retName() == "hahaha");
-	budi.printName();
+
+	print(budi.balikName());
+	//assert(budi.retName() == "hahaha");
+	//budi.printName();
 }
